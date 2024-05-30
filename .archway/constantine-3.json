@@ -1,0 +1,56 @@
+{
+  "deployments": [
+    {
+      "action": "instantiate",
+      "txhash": "8D632D042834DB09E510C09447A034F410B63C2D5BC456ABCAEFEA50112AFBE6",
+      "wasm": {
+        "codeId": 2734
+      },
+      "contract": {
+        "name": "archvideo",
+        "version": "0.1.0",
+        "address": "archway109tzzx297auqmcgt92zyl8xmfttxct667dslz3z7trqut7f88wxqc23gy3",
+        "admin": "archway1v9qptnr87ddetyxkhnhu906ydp2u0kdm6zc553"
+      },
+      "msg": {}
+    },
+    {
+      "action": "store",
+      "txhash": "E5EFEF14C350F450219F04E0A0812A075DA1E00A7F0223F9E1898E7652D47559",
+      "wasm": {
+        "codeId": 2734,
+        "checksum": "b150b4e5ae42eeaad798a88758d2d51c4ec95573bdad3d493daf1f7a9169b4ab"
+      },
+      "contract": {
+        "name": "archvideo",
+        "version": "0.1.0"
+      }
+    },
+    {
+      "action": "instantiate",
+      "txhash": "8104C70F79F342F6E1C8D1C7D7DB9678C979DBD10673C54CBC8E991711ADC456",
+      "wasm": {
+        "codeId": 2733
+      },
+      "contract": {
+        "name": "archvideo",
+        "version": "0.1.0",
+        "address": "archway1yrw2mprqy82dpyuxvglefl5l2vcpg9pay2j7dhhqwxna57jatrpqcul7tk",
+        "admin": "archway1v9qptnr87ddetyxkhnhu906ydp2u0kdm6zc553"
+      },
+      "msg": {}
+    },
+    {
+      "action": "store",
+      "txhash": "F982DD3A60923C361AD35FD387A6B3AF2986DE8E930FBCE3E1BBAED50BB1E736",
+      "wasm": {
+        "codeId": 2733,
+        "checksum": "f1477f39730835bdb7987699ee16b4beaadfb3f64d72202e7cbe6f41c8341f34"
+      },
+      "contract": {
+        "name": "archvideo",
+        "version": "0.1.0"
+      }
+    }
+  ]
+}

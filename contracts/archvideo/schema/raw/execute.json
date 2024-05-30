@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ExecuteMsg",
+  "oneOf": [
+    {
+      "type": "object",
+      "required": [
+        "upload_video"
+      ],
+      "properties": {
+        "upload_video": {
+          "type": "object",
+          "required": [
+            "id",
+            "issue",
+            "title",
+            "video_hash"
+          ],
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "issue": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "video_hash": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  ]
+}
